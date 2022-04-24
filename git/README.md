@@ -5,9 +5,7 @@
 
 Here's an excellent Git presentation from a 'friend of Infonomic' - Alexander Groß - <a href="https://agross.github.io/git-reveal/#/" target="_blank" rel="noopener nofollow">Git Reveal</a>
 
-And a very good article that describes several Git branch workflow strategies ....
-
-<a href="https://www.endoflineblog.com/oneflow-a-git-branching-model-and-workflow" target="_blank" rel="noopener nofollow">OneFlow – a Git branching model and workflow</a>
+And a very good article that describes several Git branch workflow strategies - <a href="https://www.endoflineblog.com/oneflow-a-git-branching-model-and-workflow" target="_blank" rel="noopener nofollow">OneFlow – a Git branching model and workflow</a>
 
 ## Branch Workflow
 
