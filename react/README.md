@@ -8,7 +8,7 @@ The rules below are in addition to relevant React/JSX rules which can be found a
 
 ## Table of Contents
 
-  1. [Import Rules](#import-rules)
+  1. [Import rules](#import-rules)
   1. [Props](#props)
   1. [Component organization](#component-organization)
 
