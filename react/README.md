@@ -28,7 +28,7 @@ The rules below are in addition to relevant React/JSX rules which can be found a
 
 For example...
 
-    ```jsx
+```jsx
     // React and 3rd-party modules, libraries and hooks
     import React, { useState } from 'react'
     import { useDispatch, useSelector } from 'react-redux'
@@ -74,8 +74,7 @@ For example...
         background: 'transparent',
       },
     }
-
-    ```
+```
 
 ## Props
 
@@ -91,7 +90,6 @@ For example...
     function Foo({ prop1, prop2, prop3 }) {
       return <p>Foo</p>
     }
-
     ```
 
 ## Component organization
@@ -106,7 +104,7 @@ For example...
 
   For example
 
-    ```jsx
+```jsx
     function Foo(props) {
       // Props
       const { prop1, prop2, prop3 } = props
@@ -138,7 +136,7 @@ For example...
         </Box>
       );
     }
-    ```
+```
 
   
 **[⬆ back to top](#table-of-contents)**
