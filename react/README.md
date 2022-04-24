@@ -1,11 +1,10 @@
 # Infonomic React/JSX Style Guide
 
-React development at Infonomic mainly follows other 'best practice' guides and documentation - including the 'best parts' from the [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript) 
+React development at Infonomic mainly follows other 'best practice' guides and documentation - including the 'best parts' from the <a href="https://github.com/airbnb/javascript" target="_blank" rel="noopener nofollow">Airbnb JavaScript Style Guide</a>
 
 This style guide supplements other guides with current practices at Infonomic - not all of which are perfect, but will evolve over time. It's primarily designed to assist new developers in producing code and modules that will look familiar to everyone, making code easier to read, review, and maintain.
 
-The rules below are in addition to relevant React/JSX rules which can be found at [Airbnb React/JSX Style Guide](https://github.com/airbnb/javascript/tree/master/react) - although note that nearly all React work at Infonomic is based on [React hooks](https://reactjs.org/docs/hooks-intro.html)
-
+The rules below are in addition to relevant React/JSX rules which can be found at <a href="https://github.com/airbnb/javascript/tree/master/react" target="_blank" rel="noopener nofollow">Airbnb React/JSX Style Guide Guide</a> - although note that nearly all React work at Infonomic is based on <a href="https://reactjs.org/docs/hooks-intro.html" target="_blank" rel="noopener nofollow">React hooks</a>
 ## Table of Contents
 
   1. [Import rules](#import-rules)
