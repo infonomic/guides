@@ -6,8 +6,8 @@ The style guides here are meant to supplement other guides with current practice
 
 ## JavaScript Style Guide
 
-https://github.com/infonomic/guides/tree/master/js/README.md
+https://github.com/infonomic/guides/tree/main/js/README.md
 
 ## React/JSX Style Guide
 
-https://github.com/infonomic/guides/tree/master/react/README.md
+https://github.com/infonomic/guides/tree/main/react/README.md
