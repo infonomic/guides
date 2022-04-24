@@ -1,12 +1,13 @@
 # Infonomic Git Usage Guide
 
-[Git](https://git-scm.com/) usage at Infonomic mainly follows other 'best practice' guides and documentation - including [Git book](https://git-scm.com/book/en/v2), [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/) and a variation of trunk-based git branching strategy described [here](https://www.atlassian.com/continuous-delivery/continuous-integration/trunk-based-development) and [here](https://www.toptal.com/software/trunk-based-development-git-flow) 
+[Git](https://git-scm.com/) usage at Infonomic mainly follows other 'best practice' guides and documentation - including <a href="https://git-scm.com/book/en/v2" target="_blank" rel="noopener nofollow">Git Book</a> and a variation of trunk-based git branching strategy described 
+<a href="https://www.atlassian.com/continuous-delivery/continuous-integration/trunk-based-development" target="_blank" rel="noopener nofollow">here</a>.
 
-Here's an excellent Git presentation from a 'friend of Infonomic' - Alexander Groß - https://agross.github.io/git-reveal/#/ 
+Here's an excellent Git presentation from a 'friend of Infonomic' - Alexander Groß - <a href="https://agross.github.io/git-reveal/#/" target="_blank" rel="noopener nofollow">Git Reveal</a>
 
 And a very good article that describes several Git branch workflow strategies ....
 
-[OneFlow – a Git branching model and workflow](https://www.endoflineblog.com/oneflow-a-git-branching-model-and-workflow)
+<a href="https://www.endoflineblog.com/oneflow-a-git-branching-model-and-workflow" target="_blank" rel="noopener nofollow">OneFlow – a Git branching model and workflow</a>
 
 ## Branch Workflow
 
@@ -59,7 +60,7 @@ More Examples:
 
 References:
 
-- https://www.conventionalcommits.org/
-- https://dev.to/i5han3/git-commit-message-convention-that-you-can-follow-1709
-- https://seesparkbox.com/foundry/semantic_commit_messages
-- http://karma-runner.github.io/1.0/dev/git-commit-msg.html
+- <a href="https://www.conventionalcommits.org/" target="_blank" rel="noopener nofollow">https://www.conventionalcommits.org/</a>
+- <a href="https://dev.to/i5han3/git-commit-message-convention-that-you-can-follow-1709" target="_blank" rel="noopener nofollow">https://dev.to/i5han3/git-commit-message-convention-that-you-can-follow-1709</a>
+- <a href="https://seesparkbox.com/foundry/semantic_commit_messages" target="_blank" rel="noopener nofollow">https://seesparkbox.com/foundry/-semantic_commit_messages</a>
+- <a href="http://karma-runner.github.io/1.0/dev/git-commit-msg.html" target="_blank" rel="noopener nofollow">http://karma-runner.github.io/1.0dev/git-commit-msg.html</a>
