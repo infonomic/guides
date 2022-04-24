@@ -11,3 +11,11 @@ https://github.com/infonomic/guides/tree/main/js/README.md
 ## React/JSX Style Guide
 
 https://github.com/infonomic/guides/tree/main/react/README.md
+
+## Git Usage and Branch Strategy Guide
+
+https://github.com/infonomic/guides/tree/main/git/README.md
+
+## VS Code Guide
+
+https://github.com/infonomic/guides/tree/main/vscode/README.md
