@@ -9,12 +9,12 @@ And a very good article that describes several Git branch workflow strategies - 
 
 ## Branch Workflow
 
-Infonomic currently follows the following branch strategy:
+Infonomic's current branch strategy is as follows:
 
   - **main**: is the currently deployed production release and should not be touched by anyone other than the release manager.
   - **staging**: is the branch used for staging deploys and QA of a release candidate and should not be touched by anyone other than the release manager.
   - **develop**: is the branch containing non-blocking release candidates for QA, testing, and minor changes or fixes. `develop` will be merged into `staging` for a staged deploy, and so should never contain code that will prevent a staging deploy.
-  - **feat/&lt;feature-name&gt;**: is a feature branch. Feature branches are where code is actively developed and are named `feat/topic`, `feat/longer-name-topic`, `feat/some-other-feature`. Feature branches when 'ready' are merged into develop for testing, QA, and in preparation for a staged deploy. Feature branches may also be deployed for preview-release testing to a test or staging environment.
+  - **feat/&lt;feature-name&gt;**: is a feature branch. Feature branches are where code is actively developed and are named `feat/topic`, `feat/longer-name-topic`, `feat/some-other-feature`. Feature branches when 'ready' are merged into `develop` for testing, QA, and in preparation for a staged deploy. Feature branches may also be deployed for preview-release testing to a test or staging environment.
   - **hotfix**: is used to create named hotfix branches that will be merged directly into `main` in order to fix a production bug - for example: `hotfix/foo-exception`, `hotfix/render-regression` etc.
 
 ## Commit messages

@@ -1,4 +1,4 @@
-# Infonomic Style Guides
+# Infonomic Guides
 
 Development at Infonomic mainly follows other 'best practice' guides and documentation - including the 'best parts' from the [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript) 
 
