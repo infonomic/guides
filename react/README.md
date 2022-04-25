@@ -10,6 +10,8 @@ The rules below are in addition to relevant React/JSX rules which can be found a
   1. [Import rules](#import-rules)
   1. [Props](#props)
   1. [Component organization](#component-organization)
+  1. [Event Handling](#event-handling)
+  1. [Error Handling](#error-handling)
 
 ## Import Rules
 
@@ -136,6 +138,15 @@ For example...
       );
     }
 ```
+## Event handling
 
+prefer 'event' over 'e'
+prefer curried handler for options vs closure
+
+## Error handling
+
+prefer 'error' over 'e'
+console.error is okay if necessary
+do NOT use console.log
   
 **[⬆ back to top](#table-of-contents)**
