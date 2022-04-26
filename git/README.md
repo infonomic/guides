@@ -11,6 +11,9 @@ And a very good article that describes several Git branch workflow strategies - 
 
 Infonomic's current branch strategy is as follows:
 
+
+[[https://github.com/infonomic/guides/blob/master/git/Git-Branch-Strategy_01.png|alt=git-branch-strategy]]
+
   - **main**: is the currently deployed production release and should not be touched by anyone other than the release manager.
   - **staging**: is the branch used for staging deploys and QA of a release candidate and should not be touched by anyone other than the release manager.
   - **develop**: is the branch containing non-blocking release candidates for QA, testing, and minor changes or fixes. `develop` will be merged into `staging` for a staged deploy, and so should never contain code that will prevent a staging deploy.
