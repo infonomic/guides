@@ -57,4 +57,33 @@ Database schemas at Infonomic use snake case - and all lower case. And so if you
 
 ```
 
+## GraphQL
+
+The above is in contrast to GraphQL entities and return objects, which use Camel case, and follow the identifier rules above. For example...
+
+```json
+  {
+    "id": "0x5dd1590a8b22facd1c10e6139743a238502dcda8-0x1",
+    "auctionId": "1",
+    "nft": {
+      "id": "0xe9b9497798b5fe949039c01b1a772bdcb7e9ba10/0x18c4",
+      "tokenId": "6340",
+      "contract": {
+        "id": "0xe9b9497798b5fe949039c01b1a772bdcb7e9ba10"
+      }
+    },
+    "seller": {
+      "id": "0x2bba82aa6364e583843f56f16ac98ead220b9732"
+    },
+    "duration": "86400",
+    "status": "Finalized",
+    "highestBid": {
+      "bidder": {
+        "id": "0x85176b04a01f2e2838eaa893b67e1bb40aa8db5d"
+      },
+      "amount": "5000000000000000000000"
+    },
+
+```
+
 
