@@ -34,3 +34,27 @@ Within an identifier...
     const listNfts = {}
 ```
 
+An exception to the rule above is for identifiers that contain the ID abbreviation. In this case,
+
+```js
+    // prefer
+    const tokenId = {}
+    // over
+    const tokenID = {}
+```
+
+## Field names (usually properties)
+
+Database schemas at Infonomic use snake case - and all lower case. And so if you see identifiers or properties like the following, they usually represent data, via data transfer objects (DTOs)
+
+```js
+  const auction = {
+    token_id: 1,
+    nft_market: 'production',
+    market_id: 1
+    ...
+  }
+
+```
+
+
