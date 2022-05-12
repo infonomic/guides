@@ -13,8 +13,10 @@ For example at the start of an identifier...
 ```js
     // prefer
     const nftHub = {}
+
     // over
     const NFTHub = {}
+
     // over
     const nFTHub = {}
 ```
@@ -23,6 +25,7 @@ Within an identifier...
 ```js
     // prefer
     const fetchNFT = {}
+
     // over
     const fetchNft = {}
 ```
@@ -30,15 +33,17 @@ Within an identifier...
 ```js
     // prefer
     const listNFTs = {}
+    
     // over
     const listNfts = {}
 ```
 
-An exception to the rule above is for identifiers that contain the ID abbreviation. In this case,
+An exception to the rule above is for identifiers that represent identity values. In this case we follow camel case rules...
 
 ```js
     // prefer
     const tokenId = {}
+
     // over
     const tokenID = {}
 ```
