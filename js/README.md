@@ -6,7 +6,7 @@ This style guide supplements other guides with current practices at Infonomic - 
 
 ## Identifiers
 
-For identifiers that contain acronyms, abbreviations, prefer all lower case if the acronym or abbreviation is at the start of the identifier, and all upper case if the acronym or abbreviation is within the identifier.
+For identifiers that contain acronyms, abbreviations, prefer all lower case if the acronym or abbreviation is at the start of the identifier, and all upper case if the acronym or abbreviation is within or at the end of the identifier.
 
 For example at the start of an identifier...
 
