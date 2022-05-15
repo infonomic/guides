@@ -88,7 +88,7 @@ The above is in contrast to GraphQL entities and return objects, which use Camel
       },
       "amount": "5000000000000000000000"
     },
-
+  }
 ```
 
 
