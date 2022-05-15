@@ -140,8 +140,58 @@ For example...
 ```
 ## Event handling
 
-prefer 'event' over 'e'
-prefer curried handler for options vs closure
+All event handlers should begin with 'handle...', and where the React event object is used, prefer 'event' over 'e' , for example...
+
+ ```jsx
+    // prefer
+    const handleChangeOrder = event => {
+        changeOrder(event.target.value)
+    }
+ ```
+
+ ```jsx
+    // over
+    const handleChangeOrder = e => {
+        changeOrder(event.target.value)
+    }
+ ```
+
+ ```jsx
+    // over
+    const onChangeOrder = e => {
+        changeOrder(event.target.value)
+    }
+ ```
+
+Preferred curried handlers to pass options to handlers, as opposed to inline anonymous functions
+
+  ```jsx
+    // prefer
+    const handleShowUser = id => event => {
+      // Optionally use event
+      getUser(id)
+    }
+
+    return (
+      <Button onClick={handleShowUser(user.id)}>
+        Show User
+      </Button>
+    )
+
+  ```
+
+  ```jsx
+    // over 
+    const handleShowUser = id => {
+      getUser(id)
+    }
+
+    return (
+      <Button onClick={(event) => handleShowUser(user.id)}>
+        Show User
+      </Button>
+    )
+  ```
 
 ## Error handling
 
